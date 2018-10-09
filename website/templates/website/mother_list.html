@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>SWACH</title>
+</head>
+<body>
+{% block content %}
+	<h2>List of mothers</h2>
+{% for m in mother %}
+<ul>
+	<li>{{ m.name }}</li>
+</ul>
+{% endfor %}
+{% endblock %}
+</body>
+</html>
