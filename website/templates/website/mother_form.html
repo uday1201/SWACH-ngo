@@ -7,18 +7,18 @@
 
 
 {% block content %}
-  <h2>Person Form</h2>
+  <h2>Mother Form</h2>
   <form method="post" novalidate>
     {% csrf_token %}
     <table>
       {{ form.as_table }}
     </table>
     <button type="submit">Save</button>
-    <a href="">Nevermind</a>
+    
   </form>
 
 
-<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+<!---<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
   <script>
     $("#id_district").change(function () {
       var url = $("#motherForm").attr("data-chc-url");  // get the url of the `load_cities` view
@@ -35,7 +35,7 @@
       });
 
     });
-  </script>
+  </script>--->
 {% endblock %}
 
 

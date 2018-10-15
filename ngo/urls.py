@@ -22,5 +22,6 @@ urlpatterns = [
     path('', views.MotherListView.as_view(), name='mother_changelist'),
     path('add/', views.MotherCreateView.as_view(), name='mother_add'),
     path('<int:pk>/', views.MotherUpdateView.as_view(), name='mother_change'),
-    path('ajax/load-chc/', views.load_chc, name='ajax_load_chc'),
+    #path('ajax/load-chc/', views.load_chc, name='ajax_load_chc'),
+    path('uploadaudio/', views.UploadView.as_view(), name='audio_upload'),
 ]

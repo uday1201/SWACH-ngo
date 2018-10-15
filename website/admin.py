@@ -8,3 +8,6 @@ admin.site.register(district)
 admin.site.register(chc)
 admin.site.register(village)
 admin.site.register(phc)
+admin.site.register(audio)
+admin.site.register(stage)
+

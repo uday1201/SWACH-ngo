@@ -1,0 +1,6 @@
+env/
+
+*.pyc
+*.sw[poc]
+
+.DS_Store
